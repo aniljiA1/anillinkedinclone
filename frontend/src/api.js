@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // backend URL
+  baseURL: "https://anillinkedinclone.onrender.com/api"
+, // backend URL
 });
 
 // Attach token to every request automatically
